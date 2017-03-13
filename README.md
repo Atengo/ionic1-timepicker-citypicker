@@ -10,14 +10,14 @@ timepicker&amp;&amp;citypicker base ionic1
   <script src="..yourpoth/citypicker.js"></script>
   
 module中导入
-```js
+```
   angular.module('yourmodule', ['citypicker']);
   
 时间插用使用：
-```html
+```
  <city-Picker tag="-" backdrop=true backdrop-click-to-close=false ok-text="确定" citydata="{{info.birthday}}" handle="0"datatype="date" button-Clicked="editbirthday()"></city-Picker>
  
 城市插件作用
-```html
+```
  <city-Picker tag="-" backdrop=true backdrop-click-to-close=false ok-text="确定" citydata="{{info.birthcity}}" handle="1"datatype="city" button-Clicked="editbirthcity()"></city-Picker>
   
